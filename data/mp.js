@@ -1,31 +1,30 @@
 function loadMarkersForMp() {
-    var cAlexanderAbenius = L.marker([57.7869071,12.5020254], {icon: partyIcons["m"]})
-	.bindPopup("1. <b>Alexander Abenius</b>, 28<br>Kommunalråd<br>");
-    var cJeanetteAndersson = L.marker([57.7542788,12.2614858], {icon: partyIcons["m"]})
-        .bindPopup("2. <b>Jeanette Andersson</b>, 49<br>Butiksansvarig<br>");
-    var cViktorLundblad = L.marker([57.8154819,12.3531738], {icon: partyIcons["m"]})
-        .bindPopup("3. <b>Viktor Lundblad</b>, 22<br>Student<br>");
-    var cAnitaSkoglund = L.marker([57.7819359,12.2850863], {icon: partyIcons["m"]})
-        .bindPopup("4. <b>Anita Skoglund</b>, 66<br>Fd Egenföretagare<br>");
-    var cDouglasThisell = L.marker([57.7488334,12.250567], {icon: partyIcons["m"]})
-        .bindPopup("5. <b>Douglas Thisell</b>, 69<br>Fd Kronokommisarie<br>");
-    var cFridaHolzhausen = L.marker([57.7599456,12.2715624], {icon: partyIcons["m"]})
-        .bindPopup("6. <b>Frida Holzhausen</b>, 19<br>Studerande<br>");
-    var cOskarAhlman = L.marker([57.7717303,12.2693823], {icon: partyIcons["m"]})
-        .bindPopup("7. <b>Oskar Ahlman</b>, 30<br>Studerande<br>");
-    var cMarieJungtell = L.marker([57.7656154,12.2701897], {icon: partyIcons["m"]})
-        .bindPopup("8. <b>Marie Jungtell</b>, 52<br>Financial Controller<br>");
-    var cLarsGöranLarsson = L.marker([57.7543069,12.2521836], {icon: partyIcons["m"]})
-        .bindPopup("9. <b>Lars-Göran Larsson</b>, 78<br>Tekn.DR<br>");
-    var cGunHolmberg = L.marker([57.7487173,12.250808], {icon: partyIcons["m"]})
-        .bindPopup("10. <b>Gun Holmberg</b>, 54<br>Egen verksamhet<br>");
-    var cVincentNordgren = L.marker([57.7999434,12.369198], {icon: partyIcons["m"]})
-        .bindPopup("11. <b>Vincent Nordgren</b>, 23<br>Statsvetarstudent<br>");
-    var cMaritaSnällman = L.marker([57.7687681,12.1769924], {icon: partyIcons["m"]})
-        .bindPopup("12. <b>Marita Snällman</b>, 62<br>Undersköterska<br>");
-    var cMagnusLansenfeldt = L.marker([57.7715635,12.8709849], {icon: partyIcons["m"]})
-        .bindPopup("13. <b>Magnus Lansenfeldt</b>, 73<br>Pensionär<br>");
-
+    var cKatarinaKuzmanovicKrasniqi = L.marker([57.780087,12.303335], {icon: partyIcons["mp"]})
+        .bindPopup("1. <b>Katarina Kuzmanovic-Krasniqi</b>, Receptionist<br>43<br>Hedefors<br>");
+    var cDanielEriksson = L.marker([57.783910,12.271965], {icon: partyIcons["mp"]})
+        .bindPopup("2. <b>Daniel Eriksson,</b>, 32<br>Programmerare<br>Lerum<br>");
+    var cEmmaLiljeberg = L.marker([57.8154819,12.3531738], {icon: partyIcons["mp"]})
+        .bindPopup("3. <b>Emma Liljeberg</b>, 40<br>Grundskolelärare<br>Lerum<br>");
+    var cRutgerFridholm = L.marker([57.771874,12.252567], {icon: partyIcons["mp"]})
+        .bindPopup("4. <b>Rutger Fridholm</b>, 78<br>Kommunalråd<br>Lerum<br>");
+    var cMärtaElf = L.marker([57.7488334,12.250567], {icon: partyIcons["mp"]})
+        .bindPopup("5. <b>Märta Elf</b>, 24<br>Fil.studerande<br>Lerum<br>");
+    var cBengtAnderson = L.marker([57.814155,12.446437], {icon: partyIcons["mp"]})
+        .bindPopup("6. <b>Bengt Anderson</b>, 61<br>Larmoperatör<br>Tollered<br>");
+    var cLiseAugustsson = L.marker([57.847469,12.365584], {icon: partyIcons["mp"]})
+        .bindPopup("7. <b>Lise Augustsson</b>, 67<br>Undersköterska<br>Gråbo<br>");
+    var cElisabethSanden = L.marker([57.777927,12.238641], {icon: partyIcons["mp"]})
+        .bindPopup("8. <b>Elisabeth Sandén</b>, 74<br>Leg psykoterapeut<br>Lerum<br>");
+    var cKjellHansson = L.marker([57.835545,12.241473], {icon: partyIcons["mp"]})
+        .bindPopup("9. <b>Kjell Hansson</b>, 69<br>Växlare<br>Gråbo<br>");
+    var cCamillaSundberg = L.marker([57.877101,12.322583], {icon: partyIcons["mp"]})
+        .bindPopup("10. <b>Camilla Sundberg</b>, 47<br>Trädgårdsmästare<br>Björboholm<br>");
+    var cMirjamWeslien = L.marker([57.7999434,12.369198], {icon: partyIcons["mp"]})
+        .bindPopup("11. <b>Mirjam Weslien</b>, 48<br>Förskolelärare<br>Lerum<br>");
+    var cPierreCronell = L.marker([57.751603,12.256322], {icon: partyIcons["mp"]})
+        .bindPopup("12. <b>Pierre Cronell</b>, 28<br>Underläkare<br>Lerum<br>");
+    var cCarinaEriksson = L.marker([57.803729,12.356658], {icon: partyIcons["mp"]})
+        .bindPopup("13. <b>Carina Eriksson</b>, 63<br>Studieförbundslärare<br>Floda<br>");
     return L.layerGroup([cAlexanderAbenius,
 			 cJeanetteAndersson,
 			 cViktorLundblad,
