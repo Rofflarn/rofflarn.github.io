@@ -30,7 +30,7 @@ function initmap() {
 //	map.addLayer(partyFi);
 	map.addLayer(partyKd);
 //	map.addLayer(partyL);
-	map.addLayer(partyM);
+	map.addLayer(partyMp);
 	map.addLayer(partyM);
 	map.addLayer(partyS);
 //	map.addLayer(partySD);
