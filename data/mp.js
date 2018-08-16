@@ -25,18 +25,20 @@ function loadMarkersForMp() {
         .bindPopup("12. <b>Pierre Cronell</b>, 28<br>Underläkare<br>Lerum<br>");
     var cCarinaEriksson = L.marker([57.803729,12.356658], {icon: partyIcons["mp"]})
         .bindPopup("13. <b>Carina Eriksson</b>, 63<br>Studieförbundslärare<br>Floda<br>");
-    return L.layerGroup([cAlexanderAbenius,
-			 cJeanetteAndersson,
-			 cViktorLundblad,
-			 cAnitaSkoglund,
-			 cDouglasThisell,
-			 cFridaHolzhausen,
-			 cOskarAhlman,
-			 cMarieJungtell,
-			 cLarsGöranLarsson,
-			 cGunHolmberg,
-			 cVincentNordgren,
-			 cMaritaSnällman,
-			 cMagnusLansenfeldt
-			]);
+
+        return L.layerGroup([cKatarinaKuzmanovicKrasniqi,
+                         cDanielEriksson,
+                         cEmmaLiljeberg,
+                         cRutgerFridholm,
+                         cMärtaElf,
+                         cBengtAnderson,
+                         cLiseAugustsson,
+                         cElisabethSanden,
+                         cKjellHansson,
+                         cCamillaSundberg,
+                         cMirjamWeslien,
+                         cPierreCronell,
+                         cCarinaEriksson
+                        ]);
+
 }
