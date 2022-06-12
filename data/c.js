@@ -25,9 +25,9 @@ function loadMarkersForC() {
         .bindPopup("12. <b>Ann-Mari Törnell</b><br>Fd. Arbetsmarknadschef<br>Lerum");
     var cAlfHansson = L.marker([57.875255,12.3271488], {icon: partyIcons["c"]})
         .bindPopup("13. <b>Alf Hansson</b><br>Byggnadsingenjör<br>Gråbo");
-    var cMaxZamanianBakhtyari, = L.marker([57.86679,12.44205], {icon: partyIcons["c"]})
+    var cMaxZamanianBakhtyari = L.marker([57.86679,12.44205], {icon: partyIcons["c"]})
         .bindPopup("14. <b>Max Zamanian Bakhtyari</b><br>Fil dr Nationalekonomi<br>Norsesund");
-    var cAndreasLifvmark, = L.marker([57.76943,12.25219], {icon: partyIcons["c"]})
+    var cAndreasLifvmark = L.marker([57.76943,12.25219], {icon: partyIcons["c"]})
         .bindPopup("15. <b>Andreas Lifvmark,</b><br>Projektledare<br>Lerum");
 
 
