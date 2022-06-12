@@ -37,14 +37,13 @@ function initmap() {
 	map.addLayer(partyV);
 
 	var parties = {
-	    "<img width=8% src=\"gfx/logo_c.png\"> Centerpartiet, 4": partyC,
-            "<img width=8% src=\"gfx/logo_fi.png\"> Feministiskt iniativ, 0": partyFI,
-	    "<img width=8% src=\"gfx/logo_kd.jpg\"> Kristdemokraterna, 2": partyKd,
+	    "<img width=8% src=\"gfx/logo_c.png\"> Centerpartiet, 5": partyC,
+	    "<img width=8% src=\"gfx/logo_kd.jpg\"> Kristdemokraterna, 3": partyKd,
             "<img width=8% src=\"gfx/logo_l.png\"> Liberalerna, 5": partyL,
-	    "<img width=8% src=\"gfx/logo_mp.png\"> Miljöpartiet, 6": partyMp,
-	    "<img width=8% src=\"gfx/logo_m.png\"> Moderaterna, 13": partyM,
-	    "<img width=8% src=\"gfx/logo_s.png\"> Socialdemokraterna, 13": partyS,
-	    "<img width=8% src=\"gfx/logo_sd.png\"> Sverigedemokraterna, 6": partySD,
+	    "<img width=8% src=\"gfx/logo_mp.png\"> Miljöpartiet, 3": partyMp,
+	    "<img width=8% src=\"gfx/logo_m.png\"> Moderaterna, 14": partyM,
+	    "<img width=8% src=\"gfx/logo_s.png\"> Socialdemokraterna, 11": partyS,
+	    "<img width=8% src=\"gfx/logo_sd.png\"> Sverigedemokraterna, 7": partySD,
             "<img width=8% src=\"gfx/logo_v.png\"> Vänsterpartiet, 3": partyV,
 	};
 
