@@ -29,6 +29,19 @@ function loadMarkersForC() {
         .bindPopup("14. <b>Max Zamanian Bakhtyari</b><br>Fil dr Nationalekonomi<br>Norsesund");
     var cAndreasLifvmark = L.marker([57.76943,12.25219], {icon: partyIcons["c"]})
         .bindPopup("15. <b>Andreas Lifvmark,</b><br>Projektledare<br>Lerum");
+    var cJosefJohnsson = L.marker([57.74903,12.25843], {icon: partyIcons["c"]})
+        .bindPopup("16. <b>JosefJohnsson</b><br>Tekn Dr Byggnadsteknologi<br>Lerum");
+    var cCeciliaBolleLarsson = L.marker([57.77040,12.28351], {icon: partyIcons["c"]})
+        .bindPopup("17. <b></b><br>Företagare<br>Aspen");
+    var cRolfBackegårdh = L.marker([57.83774,12.32836], {icon: partyIcons["c"]})
+        .bindPopup("18. <b>Rolf Backegårdh</b><br>Byggnadssnickare<br>Stenkullen");
+    var cLarsGustafsson = L.marker([57.83474,12.30031], {icon: partyIcons["c"]})
+        .bindPopup("22. <b>Lars Gustafsson,</b><br>Ingenjör<br>Lerum");
+    var cLarsErikPeterson = L.marker([57.84217,12.25176], {icon: partyIcons["c"]})
+        .bindPopup("23. <b>Lars-Erik Petersson</b><br>Lantbrukare<br>Lerum");
+
+
+
 
 
 
@@ -47,5 +60,10 @@ function loadMarkersForC() {
 			 cAlfHansson,
 			 cMaxZamanianBakhtyari,
 			 cAndreasLifvmark,
+			 cJosefJohnsson,
+			 cCeciliaBolleLarsson,
+			 cRolfBackegårdh,
+			 cLarsGustafsson,
+			 cLarsErikPeterson,
 			]);
 }
