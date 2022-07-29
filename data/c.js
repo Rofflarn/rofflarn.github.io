@@ -1,7 +1,7 @@
 function loadMarkersForC() {
     var cEvaAndersson = L.marker([57.8455,12.3427], {icon: partyIcons["c"]})
 	.bindPopup("1. <b>Eva Andersson</b><br>Kommunalråd<br>Gråbo");
-    var cRobertLinderBlomberg = L.marker([57.791891, 12.3180899], {icon: partyIcons["c"]})
+    var cRobertLinderBlomberg = L.marker([57.79223, 12.31340], {icon: partyIcons["c"]})
 	.bindPopup("2. <b>Robert Linder Blomberg</b><br>Dataingenjör<br>Lerum");
     var cGunnyKron = L.marker([57.8289667,12.3745343], {icon: partyIcons["c"]})
 	.bindPopup("3. <b>Gunny Kron</b><br>Marknadschef<br>Floda");
@@ -13,7 +13,7 @@ function loadMarkersForC() {
 	.bindPopup("6. <b>Lerny Hermansson</b><br>Fd. Bygglovschef<br>Gråbo");
     var cAnnelieNyberg = L.marker([57.77797,12.39304], {icon: partyIcons["c"]})
 	.bindPopup("7. <b>Annelie Nyberg</b><br>Sjuksköterska/Företagare<br>Floda");
-    var cIngvarRinghage = L.marker([57.80239,12.34934], {icon: partyIcons["c"]})
+    var cIngvarRinghage = L.marker([57.80571,12.34526], {icon: partyIcons["c"]})
 	.bindPopup("8. <b>Ingvar Ringhage</b><br>Fd. Byggnadsarbetare<br>Floda");
     var cPerEricBorjesson = L.marker([57.77544,12.24836], {icon: partyIcons["c"]})
 	.bindPopup("9. <b>Per-Eric Börjesson</b><br>Marknadsekonom<br>Lerum");
